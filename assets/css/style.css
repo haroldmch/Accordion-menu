@@ -1,0 +1,97 @@
+/*Reseteo de la página*/
+* {margin: 0; padding: 0;}
+
+body{
+    background-color:#cccbc8;
+}
+
+#contenedor {
+    width:100%;
+}
+
+
+/*
+MENÚ
+*/
+
+#menu {
+    background: #056a63;
+    width: 250px;
+    margin: 100px auto 0 auto;
+    color: white;
+    box-shadow: 
+        0 5px 15px 1px rgba(0,0,0,0.6),
+        0 0 200px 1px rgba(255,255,255,0.5);
+    
+}
+
+#menu ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*estilos de menu principal*/
+#menu h3 {
+	font-size: 20px;
+	line-height: 34px;
+	padding: 0 10px;
+    background: #02382d;
+    margin: 0px;
+}
+
+/*quitar puntos*/
+#menu li {
+	list-style-type: none;
+
+}
+
+#menu ul ul {
+	display: none;
+
+}
+
+#menu ul ul ul {
+	display: none;
+
+}
+
+#menu li.active ul {
+	display: block;
+
+}
+
+
+/*H2*/
+#menu ul ul li h2 {
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 27px;
+    padding: 0 15px;
+    transition: all 0.30s;
+    background: #013636;
+    border-left: 5px solid lightgreen;
+}
+
+#menu ul ul li h2:hover {
+    border-left: 10px solid lightgreen;
+    transition: all 0.55s;	
+}
+
+/*A*/
+#menu ul ul ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 27px;
+    display: block;
+    padding: 0 30px;
+    transition: all 0.30s;	
+
+}
+
+#menu ul ul ul li a:hover {
+	background: #0D1B1A;
+    border-left: 5px solid red;
+    transition: all 0.55s;	
+}
